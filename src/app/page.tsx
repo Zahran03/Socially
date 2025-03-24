@@ -1,3 +1,5 @@
+import ModeToggle from "@/components/ModeToggle";
+import { Button } from "@/components/ui/button";
 import {
   SignedIn,
   SignedOut,
@@ -8,15 +10,5 @@ import {
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div>
-      <SignedOut>
-        <SignInButton />
-        <SignUpButton />
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-    </div>
-  );
+  return <div className="m-4"></div>;
 }
